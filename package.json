@@ -1,0 +1,31 @@
+{
+  "name": "childrens-book-app",
+  "version": "0.3.0",
+  "main": "electron.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "electron:dev": "concurrently \"vite\" \"electron .\"",
+    "electron:build": "electron-builder --win msix"
+  },
+  "build": {
+    "appId": "com.example.childrensbook",
+    "win": {
+      "target": [
+        "msix"
+      ]
+    }
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@fluentui/react-components": "^9.63.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "electron": "^26.0.0",
+    "electron-builder": "^24.0.0",
+    "concurrently": "^7.6.0"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "book1",
+    "title": "Sample Book One",
+    "cover": "/src/pages/book1/cover.png"
+  },
+  {
+    "id": "book2",
+    "title": "Another Adventure",
+    "cover": "/src/pages/book2/cover.png"
+  }
+]
